@@ -1,0 +1,23 @@
+Project I
+
+**EXERCICI**
+
+1. Hypotheses -> que vull trobar d’aquesta base de dades?
+
+2. Cleaning —> proces fins a arribar a la df “neta”
+
+3. Visualization. -> com puc representar la info de la forma més clara
+
+4. Story-Telling
+
+
+
+
+Hypotheses
+0. Estudi per veure si el nº d'atacs ha augmentat amb el temps -> i la seva Fatalitat
+1. les arees amb mes attacks de taurons --> depen de la temporada de l'any????? (lloc preferit, epoca preferida i hora prefida  [Matí, tarda, NIT])
+2. especies de taurons que ataquen mes SENSE QUE ELS PROVOQUIN -> hi ha relacio entre, provocar - shark specie - fatalitat
+3. si ets surfista -> on no has de fer surf!! (zones amb més atacs a surfistes, mirar Fatalitat tmbé)
+
+
+
