@@ -15,7 +15,7 @@ This database contains all shark attacks registered so my aim in this project is
 
 2. Australia is the country where surfers are more attacked in the summer.
 
-3. White shark is the most deadly specie and is the specie that attacks more when not provoked.
+3. White shark is the most deadly species and is the species that attacks more when not provoked.
 
 
 
@@ -152,7 +152,7 @@ In conclusion, we can **refuse the 2nd hypothesis: Australia is the country wher
 
 
 
-### HYPOTHESIS 3: White shark is the most deadly specie and is the specie that attacks more when not provoked
+### HYPOTHESIS 3: White shark is the most deadly species and is the species that attacks more when not provoked
 
    *3.1. Which species attacks more if unprovoked? How fatal is it?*
    
@@ -171,4 +171,19 @@ Looking at the overall attacks, we see that the Specie that attacks more and has
                                   
 After looking into the graphs we can validate the hypothesis: **the white shark is the most deadly specie and the one that attacks the most when there is no provocation from humans**. Humans are not willing to provoke much the white shark, being the nurse shark the specie that has a higher number of recorded provoked attacks.                           
 
+### RECAP
 
+At the beginning of the document we set the following hypothesis.
+
+1. Shark attacks are more fatal in the present.
+
+2. Australia is the country where surfers are more attacked in the summer.
+
+3. White shark is the most deadly specie and is the specie that attacks more when not provoked.
+
+
+After the exercise we are able to:
+
+- Refuse hypothesis 1: Shark attacks have increased in number, but the fatality has remained stable.
+- Refuse hypothesys 2: Florida(USA) is the area with the highest record of surfers attacked.
+- Validate hypothesis 3: the White Shark is the deadliest species and the one that occasionates more unprovoked attacks.
