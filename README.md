@@ -148,12 +148,27 @@ We can see in the previous graph that **Australia won't be the worst country to 
 
 
 In conclusion, we can **refuse the 2nd hypothesis: Australia is the country where surfers are more attacked in the summer**. The country with more attacks registered to surfers in the summer time is USA, lead by Florida.
+![image](https://user-images.githubusercontent.com/62396094/196160911-91519405-8afd-4dcb-8d14-6ef876a6879d.png)
 
-![istockphoto-164157438-612x612](https://user-images.githubusercontent.com/62396094/196159239-49821b89-b00e-4c61-b5fd-7e59b9cfde2f.jpeg)
 
 
-3. Study the shark species, which one attacks more?
+### HYPOTHESIS 3: White shark is the most deadly specie and is the specie that attacks more when not provoked
 
-   *3.1. Which species attacks more if unprovoked? Where?*
+   *3.1. Which species attacks more if unprovoked? How fatal is it?*
    
-   *3.2. Which species attacks more if provoked? Where?*
+   *3.2. Which species attacks more if provoked? How fatal is it?*
+   
+   
+   <img width="574" alt="image" src="https://user-images.githubusercontent.com/62396094/196161501-f6d99c13-d68e-4071-a67b-d7c2c1aec26f.png">
+
+Looking at the overall attacks, we see that the Specie that attacks more and has generated the most fatal outcome is the white shark, as we expected from our hypothesis. As we want to look into the type of the accident (provoked or not) we will look into both unprovoked and provoked attacks in order to find the specie that has more attacks of each type.
+
+![image](https://user-images.githubusercontent.com/62396094/196162617-31fa513f-1244-4b70-b794-5a7d555dd34d.png)
+
+![image](https://user-images.githubusercontent.com/62396094/196162655-d1ab7183-0ba2-4c75-8777-66108e29030f.png)
+
+                                 
+                                  
+After looking into the graphs we can validate the hypothesis: **the white shark is the most deadly specie and the one that attacks the most when there is no provocation from humans**. Humans are not willing to provoke much the white shark, being the nurse shark the specie that has a higher number of recorded provoked attacks.                           
+
+
