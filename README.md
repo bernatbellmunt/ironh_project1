@@ -36,20 +36,67 @@ This database contains all shark attacks registered so my aim in this project is
    *3.2. Which species attacks more if provoked? Where?*
     
 
+### CLEANING
+
+**Step 1**: I remove the columns that I don't want -> ['Injury','Investigator or Source', 'pdf', 'href formula', 'href',
+'Case Number.1', 'Case Number.2', 'original order', 'Unnamed: 22','Unnamed: 23']. I additionally remove all lines that have null information or more than 2 fields that are null and rename the Columns Sex and Species in order to remove the space located in the last character.
+
+```python 
+df= df_raw.drop(columns=['Injury','Investigator or Source', 'pdf', 'href formula', 'href',
+       'Case Number.1', 'Case Number.2', 'original order', 'Unnamed: 22',
+       'Unnamed: 23'])
+df = df.dropna(how="all")
+df = df.dropna(thresh=3)
+df.rename(columns = {"Species ":"Species"}, inplace=True)
+df.rename(columns = {"Sex ":"Sex"}, inplace=True)
+```
+
+The new DF will result in the following columns, which will need to be cleaned:
+<img width="1122" alt="image" src="https://user-images.githubusercontent.com/62396094/196143150-8e2c3fc7-7b4d-439a-99e0-33cca9d2bb52.png">
 
 
 
-```python print("hello world")```
+**Step 2**: I will keep data with year > 1900 and will remove data with no Year associated and change the data type column to integer.
+```python
+df.drop (df[df.Year < 1900].index, inplace=True)
+df = df[df.Year.notna()]
+df["Year"] = df["Year"].astype(int)
+df.dtypes
+```
 
 
-**bold**
-
-*italic*
+**Step 3**: I will clean Country column by turning all of the to Capital letters and Type Column by removing empty values.
 
 
-**EXERCICI**
+**Step 4**: I will obtain both days and months based on the Case Number column. Once retrieved, I will remove Case Number column from the DF. ["Day", "Month", "Year"] will be Integers
+```python
+df["Date"] = df["Date"].str.replace("Reported ","")
+df.insert(2,"Months",df['Case Number'].str.extract('\.(\d{2})\.'))
+df.insert(2,"Day",df['Case Number'].str.extract('\.\d{2}\.(\d{2})'))
+df["Year"] = df["Year"].astype(int)
+df["Months"] = df["Months"].astype(int)
+df["Day"] = df["Day"].astype(int)
+```
 
-1. Hypotheses
-2. Cleaning
-3. Visualization
-4. Story-Telling
+
+**Step 5**: I want to create a new column -> Season. In order to do this, I will first need to know the Country's Hemisphere ["NORTH", "SOUTH"] and based on the month the attack will happen in ["SUMMER", "AUTUMN", "WINTER", "SPRING"]. I will rearrange columns too.
+<img width="1126" alt="Screenshot 2022-10-17 at 11 43 49" src="https://user-images.githubusercontent.com/62396094/196145623-cb6d0019-5eae-45d8-b8eb-baeb74c05763.png">
+
+
+**Step 6**: I will clean Age, Fatality and Sex columns in order to keep the following: integer, Y/N and M/F.
+```python
+df["Age"] = df["Age"].str.extract("(\d{1,2})")
+df["Fatal (Y/N)"] = df["Fatal (Y/N)"].str.extract("(^Y|N)")
+df["Sex"] = df["Sex"].str.extract("(^M|F)")
+```
+
+
+**Step 7**: I will clean the Species column. I will do that by keeping "shark" and the previous word from it.
+```python
+df["Species"] = df["Species"].str.extract("([A-Z|a-z]{1,}\s{1}shark)")
+```
+
+
+**Step 8**: Finally I will clean the Activity column by grouping the activities in the following: ["Diving", "Surfing", "Swimming", "Fishing","Walking", "Sailing","Other"]
+
+
