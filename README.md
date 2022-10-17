@@ -133,9 +133,19 @@ Northern hemisphere countries have the highest records of shark attacks: 58% of 
 Additionally, we will look into the seasonality of the attacks. We will assume that attacks happen more in the summer time (both in the northern and southern hemisphere) as it is more likely for people to go and swim in the sea. After we take a look at the graph, we can validate this last subhypothesis.
 ![image](https://user-images.githubusercontent.com/62396094/196156726-83d88388-e055-4f01-8a5d-065505927737.png)
 
+Now that we know that Summer is the shark attack season, which are the main activities that people were performing?
+![image](https://user-images.githubusercontent.com/62396094/196157451-e9d0ebe5-569c-452e-95fb-e8b9506b67f0.png)
+
+Summer attacks are majority on Other activities, but since we are looking into surfers, we will focus on the following -> Activity = Surfing, Season = Summer. 
+We want to know which is the country has the highest number of attacks to surfers during the summer:
+![image](https://user-images.githubusercontent.com/62396094/196157861-8bdca554-0e9e-45da-90f2-1089338fdc0d.png)
+
+We can see in the previous graph that **Australia won't be the worst country to surf in the summer, but the USA will!** As the US is such a big country, we will want to know which is the area with more attacks: **FLORIDA**, but at least, these are not fatal!
+![image](https://user-images.githubusercontent.com/62396094/196158736-1a01b0b5-0a44-41ad-800e-e1f424c4591e.png)
 
 
 
+![istockphoto-164157438-612x612](https://user-images.githubusercontent.com/62396094/196159239-49821b89-b00e-4c61-b5fd-7e59b9cfde2f.jpeg)
 
 
 3. Study the shark species, which one attacks more?
