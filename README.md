@@ -9,12 +9,13 @@ Bernat Bellmunt Cabutí
 
 The aim of this project is to work arround the Shark Attack .csv file that can be found in the following link: https://www.kaggle.com/datasets/teajay/global-shark-attacks?resource=download
 
-This database contains all shark attacks registered so my aim in this project is to work on the following:
-1. Are shark attacks increasing?
+This database contains all shark attacks registered so my aim in this project is to work on the following hypothesis:
 
-2. If I were a surfer, when and where is it more likely I will get attacked?
+1. Shark attacks are more fatal in the present.
 
-3. Which is the most dangerous shark species?
+2. Australia is the region with more shark attacks.
+
+3. White shark is the most deadly specie and is the specie that attacks more when not provoked.
 
 
 
@@ -83,7 +84,7 @@ df["Species"] = df["Species"].str.extract("([A-Z|a-z]{1,}\s{1}shark)")
 
 
 
-### HYPOTHESIS 1
+### HYPOTHESIS 1: Shark attacks are more fatal in the present
 
 1. Analysis on the evolution of attacks throughout the years.
 
@@ -95,12 +96,21 @@ df["Species"] = df["Species"].str.extract("([A-Z|a-z]{1,}\s{1}shark)")
    
 
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/62396094/196149421-3f29d584-07f3-4f58-aae8-adc03a380c24.png">
+
 Overall, the number of shark attacks has followed a positive tendency throughout the years. 
 The gragh is split based on the fatality.
 - None fatal attacks have increased during the last 20 years.
 - Fatal attacks have remained stable throughout the years observed.
 
+![image](https://user-images.githubusercontent.com/62396094/196152999-adb65f02-df35-4f4d-85e8-2f6c729ee78c.png)
+During the last years, the attacks to surfers have experienced an important growth, being this the main activity from 1990s to the present.
+Surfing is not the most fatal activity overall, nor the most likely to happen. More attacks have been registered for Other activities.
 
+In proportion, the most fatal activity is swimming.
+![image](https://user-images.githubusercontent.com/62396094/196153896-f6757687-3c91-4088-8623-9fcf6eddd9f2.png)
+
+Therefore we can **refuse the first hypothesis**.
+Even though the number of attacks have risen with time, the fatality of these attacks has remained stable. Overall the activity that experiences the most attacks is "Other", even though in the last 20 years Surfing is the main cause. However the activity with the highest fatality rate is Swimming. 
 
 
 
