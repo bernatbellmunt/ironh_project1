@@ -131,19 +131,23 @@ In order to validate or refuse the 2nd hypothesis, I will first look into which 
 Northern hemisphere countries have the highest records of shark attacks: 58% of the attacks happen in the northern hemisphere.
 
 Additionally, we will look into the seasonality of the attacks. We will assume that attacks happen more in the summer time (both in the northern and southern hemisphere) as it is more likely for people to go and swim in the sea. After we take a look at the graph, we can validate this last subhypothesis.
-![image](https://user-images.githubusercontent.com/62396094/196156726-83d88388-e055-4f01-8a5d-065505927737.png)
+![image](https://user-images.githubusercontent.com/62396094/196159447-70313b61-6768-482e-8811-e0a65db22361.png)
+
 
 Now that we know that Summer is the shark attack season, which are the main activities that people were performing?
-![image](https://user-images.githubusercontent.com/62396094/196157451-e9d0ebe5-569c-452e-95fb-e8b9506b67f0.png)
+![image](https://user-images.githubusercontent.com/62396094/196159557-384014dd-294c-49de-bbba-440fc42226f8.png)
+
 
 Summer attacks are majority on Other activities, but since we are looking into surfers, we will focus on the following -> Activity = Surfing, Season = Summer. 
 We want to know which is the country has the highest number of attacks to surfers during the summer:
-![image](https://user-images.githubusercontent.com/62396094/196157861-8bdca554-0e9e-45da-90f2-1089338fdc0d.png)
+![image](https://user-images.githubusercontent.com/62396094/196159624-1d3d0c82-050b-496f-a316-7bd22b897a07.png)
+
 
 We can see in the previous graph that **Australia won't be the worst country to surf in the summer, but the USA will!** As the US is such a big country, we will want to know which is the area with more attacks: **FLORIDA**, but at least, these are not fatal!
-![image](https://user-images.githubusercontent.com/62396094/196158736-1a01b0b5-0a44-41ad-800e-e1f424c4591e.png)
+![image](https://user-images.githubusercontent.com/62396094/196159917-b74d516f-9b95-4892-a753-bf90e8ee3221.png)
 
 
+In conclusion, we can **refuse the 2nd hypothesis: Australia is the country where surfers are more attacked in the summer**. The country with more attacks registered to surfers in the summer time is USA, lead by Florida.
 
 ![istockphoto-164157438-612x612](https://user-images.githubusercontent.com/62396094/196159239-49821b89-b00e-4c61-b5fd-7e59b9cfde2f.jpeg)
 
