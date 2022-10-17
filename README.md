@@ -13,7 +13,7 @@ This database contains all shark attacks registered so my aim in this project is
 
 1. Shark attacks are more fatal in the present.
 
-2. Australia is the region with more shark attacks.
+2. Australia is the country where surfers are more attacked in the summer.
 
 3. White shark is the most deadly specie and is the specie that attacks more when not provoked.
 
@@ -86,8 +86,6 @@ df["Species"] = df["Species"].str.extract("([A-Z|a-z]{1,}\s{1}shark)")
 
 ### HYPOTHESIS 1: Shark attacks are more fatal in the present
 
-1. Analysis on the evolution of attacks throughout the years.
-
    *1.1. How has fatality evolutioned*
    
    *1.2. What are the main activities people were performing when attacked?*
@@ -109,12 +107,14 @@ Surfing is not the most fatal activity overall, nor the most likely to happen. M
 In proportion, the most fatal activity is swimming.
 ![image](https://user-images.githubusercontent.com/62396094/196153896-f6757687-3c91-4088-8623-9fcf6eddd9f2.png)
 
+
 Therefore we can **refuse the first hypothesis**.
-Even though the number of attacks have risen with time, the fatality of these attacks has remained stable. Overall the activity that experiences the most attacks is "Other", even though in the last 20 years Surfing is the main cause. However the activity with the highest fatality rate is Swimming. 
+Even though the number of attacks have risen with time, the fatality of these attacks has remained stable. Fatality rate was much higher during the 50s and 60s.
+Overall the activity that experiences the most attacks is "Other", even though in the last 20 years Surfing is the main cause. However the activity with the highest fatality rate is Swimming. 
 
 
 
-2. If I were a surfer, when and where is it more likely I will get attacked?
+### HYPOTHESIS 2: Australia is the country where surfers are more attacked in the summer
 
    *2.1. What is the season with more attacks?*
    
@@ -124,6 +124,16 @@ Even though the number of attacks have risen with time, the fatality of these at
     
    *2.4. In which area should I not surf?*
     
+
+In order to validate or refuse the 2nd hypothesis, I will first look into which hemisphere has a larger number of reported attacks. 
+![image](https://user-images.githubusercontent.com/62396094/196156009-f618bc55-52c4-460e-8f91-0bcab20f41b0.png)
+
+Northern hemisphere countries have the highest records of shark attacks: 58% of the attacks happen in the northern hemisphere.
+
+Additionally, we will look into the seasonality of the attacks. We will assume that attacks happen more in the summer time (both in the northern and southern hemisphere) as it is more likely for people to go and swim in the sea. After we take a look at the graph, we can validate this last subhypothesis.
+![image](https://user-images.githubusercontent.com/62396094/196156726-83d88388-e055-4f01-8a5d-065505927737.png)
+
+
 
 
 
