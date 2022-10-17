@@ -83,6 +83,8 @@ df["Species"] = df["Species"].str.extract("([A-Z|a-z]{1,}\s{1}shark)")
 
 
 
+### HYPOTHESIS 1
+
 1. Analysis on the evolution of attacks throughout the years.
 
    *1.1. How has fatality evolutioned*
@@ -91,7 +93,15 @@ df["Species"] = df["Species"].str.extract("([A-Z|a-z]{1,}\s{1}shark)")
    
    *1.3. Is there a more fatal activity?*
    
-   
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/62396094/196149421-3f29d584-07f3-4f58-aae8-adc03a380c24.png">
+Overall, the number of shark attacks has followed a positive tendency throughout the years. 
+The gragh is split based on the fatality.
+- None fatal attacks have increased during the last 20 years.
+- Fatal attacks have remained stable throughout the years observed.
+
+
+
 
 
 2. If I were a surfer, when and where is it more likely I will get attacked?
